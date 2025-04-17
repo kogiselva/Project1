@@ -1,0 +1,117 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 244, 229);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list li{
+    list-style: none;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    filter: blur(.3px);
+    color: grey;
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list li:hover{
+    background-color: beige;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    align-items: center;
+}
+
+.symbol h1{
+    font-size: 1.5rem;
+    color: gray;
+    filter: blur(.5px);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(218, 218, 218);
+    width: 300px;
+    height: 200px;
+   border-radius: 10px;
+}
+
+.box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.img2{
+    width: 100%;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.para h2{
+    font-size: 12px;
+    font-weight: 600;
+    filter: blur(.3px);
+}
+
+.para p {
+    font-size: 9px;
+    font-weight: 400;
+    filter: blur(.4px);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background: linear-gradient(to right, Orangered, red) ;
+    font-size: .7rem;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    opacity: 0.6;
+}

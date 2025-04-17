@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/691859/pexels-photo-691859.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px rgb(155, 155, 255);
+}
+
+.first_section{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: white;
+clip-path: polygon(0 0, 100% 0, 100% 49%, 0 100%);
+    width: 300px;
+    height: 200px;
+    background-color: rgb(3, 3, 131);
+    padding: 2rem;
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 2px 2px 6px rgb(151, 151, 246);
+}
+
+.first_section img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.first_section h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 2px 2px red;
+}
+
+.first_section p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgb(198, 194, 194);
+}
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: -2rem;
+    margin-left: -3rem;
+    
+}
+
+.second_section button{
+    background-color: rgb(156, 156, 246);
+    border-radius: 10px;
+    border: none;
+    display: inline-flex;
+   align-items: center;
+   padding: 6px 20px;
+   color: white;
+   font-size: .8rem;
+cursor: pointer;
+}
+
+.second_section button:hover{
+    background-color: rgb(255, 16, 151);
+}
+
+.svgs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.svg1{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.svg13 {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 10px;
+}
+
+.svg11 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: blue;
+}
+
+.svg12 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: blue;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 70px;
+    margin-left: -50px;
+}
+
+
+.svg1 p{
+    font-size: .9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.svg3{
+    display: flex;
+    align-self: flex-end;
+    padding: 10px;
+}
+
+.addcontent{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.inputone{
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttonone{
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 10px;
+}
